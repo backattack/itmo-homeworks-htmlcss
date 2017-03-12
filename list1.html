@@ -3,19 +3,31 @@
     <head>
        <meta  charset="UTF-8">
         <title>Fictional Zoo - List</title>
+        <style>
+            h1 {text-align: center; color: darkgreen; font-family: fantasy}
+            h3 {text-align: center; color:olive;}
+            ul {list-style: square; text-align: center; color: brown; font-family: serif; list-style-position: inside}
+            ol {color: brown; text-align: center; font-family: serif; align-content: center;list-style-position: inside}
+            #1 {font-style: italic; font-family: sans-serif}
+            #2 {font-style: oblique; font-family: sans-serif}
+            body {background-color: antiquewhite;}
+            input {display: block; margin-left: auto; margin-right: auto;color: brown}
+        </style>
     </head>
     <body>
-    <h1>Title 1</h1>
-    <p>Text</p>
-    <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-    </ul>  
+        <h1>Животные нашего зоопарка</h1></div>
+    <h3>Южный вольер</h3>
+    <ul id="1">
+        <li>Тигр</li>
+        <li>Леопард</li>
+        <li>Рысь</li>
+    </ul>
+    <h3 id="2">Северный вольер</h3>  
     <ol start="1">
-        <li>a</li>
-        <li>b</li>
-        <li>c</li>
-    </ol>
+        <li>Волк</li>
+        <li>Гиена</li>
+        <li>Песец</li>
+    </ol><br />   
+    <input type="button" value="Вернуться на главную" onclick="location.href='index.html'">
     </body>
 </html>

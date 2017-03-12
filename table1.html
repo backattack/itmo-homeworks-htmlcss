@@ -3,26 +3,44 @@
     <head>
        <meta  charset="UTF-8">
         <title>Fictional Zoo - Table</title>
+        <style>
+            body {background-color: antiquewhite;}
+            table {border-collapse:collapse; border-color:olive; width: auto; height:auto; margin:auto}
+            td {color: brown; text-align: center; vertical-align: middle; padding: 10px; font-family:sans-serif; }
+            h2 {color:darkgreen; font-family:fantasy; font-size:200%; text-align:center;}
+            td.LOL {color: darkorchid;}
+            #2 {background-color: saddlebrown;}
+            #3 {background-color: yellow;}
+            caption {color: sandybrown; font-size: 90%;}
+            #cite {background-color: cadetblue;color: aquamarine;}
+            input {display: block; margin-left: auto; margin-right: auto;color: brown}
+        </style>
     </head>
     <body>
-<h1>Title 1</h1>
-   <p>TEXT</p>
-   <table>
+   <table border="1">
+      <h2 text-align="center" caption-side="top">Скоро у нас!</h2>
+      <caption>Таблица прибытия животных</caption>
        <tr>
-           <td>1</td>
-           <td>2</td>
-           <td>3</td>
+           <td>Животное</td>
+           <td>Количество</td>
+           <td>Как скоро ждать?</td>
        </tr>
        <tr>
-           <td>a</td>
-           <td>b</td>
-           <td>c</td>
+           <td class="LOL">Панда</td>
+           <td>1 (одна)</td>
+           <td>Через неделю</td>
        </tr>
        <tr>
-           <td>x</td>
-           <td>y</td>
-           <td>z</td>
+           <td class="LOL">Медведь</td>
+           <td>3 (три)</td>
+           <td>Через месяц</td>
        </tr>
-   </table>  
+       <tr>
+           <td class="LOL">Жираф</td>
+           <td>2 (два)</td>
+           <td id="cite">Через год</td>
+       </tr>
+   </table><br />
+   <input type="button" value="Вернуться на главную" onclick="location.href='index.html'"> 
     </body>
 </html>
