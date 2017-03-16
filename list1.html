@@ -1,32 +1,37 @@
 <!DOCTYPE HTML>
 <html lang="ru-RU">
     <head>
-       <meta  charset="UTF-8">
-         <link href='http://fonts.googleapis.com/css?family=Lobster&subset=cyrillic,latin' rel='stylesheet' type='text/css'></link>
+       <meta  charset="UTF-8"/>
+         <link href='http://fonts.googleapis.com/css?family=Lobster&subset=cyrillic,latin' rel='stylesheet' type='text/css'/>
         <title>Fictional Zoo - List</title>
         <style>
+            body {background-image: url(font.jpg);}
             h1 {text-align: center; color: darkgreen; font-family: 'Lobster'; font-size: 250%}
             h3 {text-align: center; color:olive;font-family: 'Lobster'; font-size: 180%}
-            ul {list-style: square; text-align: center; color: darkblue; font-family: serif; list-style-position: inside; font-size: 130%}
-            ol {color: darkblue; text-align: center; font-family: serif; align-content: center;list-style-position: inside; font-size: 130%}
-            body {background-color: antiquewhite;}
+            .south {list-style: square; text-align: center; color: darkblue; font-family: serif; list-style-position: inside; font-size: 130%}
+            .north {color: darkblue; text-align: center; font-family: serif; align-content: center;list-style-position: inside; font-size: 130%}
             input {display: block; margin-left: auto; margin-right: auto;color: darkblue}
+
         </style>
     </head>
-    <body background="font.jpg">
+    <body>
         <h1>Животные нашего зоопарка</h1></div>
     <h3>Южный вольер</h3>
-    <ul id="1">
-        <li>Тигр</li>
-        <li>Леопард</li>
-        <li>Рысь</li>
+    <div class="south">
+       <ul>
+        <li>Тигры</li>
+        <li>Леопарды</li>
+        <li>Рыси</li>
     </ul>
+    </div>
     <h3>Северный вольер</h3>  
-    <ol start="1">
-        <li>Волк</li>
-        <li>Гиена</li>
-        <li>Песец</li>
-    </ol><br />   
+    <div class="north">
+       <ol start="1">
+        <li>Волки</li>
+        <li>Гиены</li>
+        <li>Песцы</li>
+        </ol>
+        </div><br />   
     <input type="button" value="Вернуться на главную" onclick="location.href='index.html'">
     </body>
 </html>
