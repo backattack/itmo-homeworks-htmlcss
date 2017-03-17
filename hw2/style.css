@@ -17,8 +17,9 @@ h1,h2 {
     float: none;
     text-align: center;
     vertical-align: middle;
-    margin: 0px;
+    margin-bottom: -16px;
     padding: 0px;
+    margin-left: 33px;
 }
 
 
@@ -45,6 +46,8 @@ h1,h2 {
 .content {
     background-color: bisque;
     color: darkblue;
+    margin-left: 262px;
+    margin-right: 264px;
 }
 .footer {
     background-color: burlywood;

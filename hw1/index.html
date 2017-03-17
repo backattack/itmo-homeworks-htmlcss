@@ -5,19 +5,27 @@
        <link href='http://fonts.googleapis.com/css?family=Lobster&subset=cyrillic,latin' rel='stylesheet' type='text/css'/>
         <title>Fictional Zoo</title>
         <style>
-            body {background-image:url(font.jpg); text-align: center;}
-            .menu {color: darkblue; font-family: serif; font-size: 150%}
+            body {background-image:url(font.jpg); text-align: center; background-size: cover;}
+            a {color: firebrick; font-family: serif; font-size: 150%; text-decoration: none; background-color: lightgreen;border-radius: 5px;}
             div {font-family: Verdana, Arial, Helvetica, sans-serif;}
             h1 {color: darkgreen; font-size: 250%;font-family: 'Lobster'}
+            img {width: 300px; height: 180px; border-radius: 5px;}
+            .header {padding-bottom: 30px;}
+            .menu {padding-top: 50px;}
+            #qst {cursor: progress; border: 1px solid darkgreen;padding:15px; margin: 15px;}
+            #list {cursor:progress; border: 1px solid darkgreen;padding:15px; margin: 15px;}
+            #table {cursor: progress; border: 1px solid darkgreen;padding:15px; margin: 15px;}
     </style>
     </head>
     <body>
+       <div class="header">
         <h1>Вымышленный Зоопарк</h1>
-        <img height="180px" src="mainpicture.jpg" alt="Тут была панда" /><hr/>
+        <img src="mainpicture.jpg" alt="Тут была панда" />
+        </div><hr/>
         <div class="menu">
-   <a  href="main1.html" title="Перейти на основную страницу">О нас</a><hr/>
-   <a  href="list1.html" title="Перейти на страницу со списком">Наши животные</a><hr/>
-   <a  href="table1.html" title="Перейти на страницу с таблицей">Ждем в гости</a><hr/>
+   <a  id="qst" href="main1.html" title="Перейти на основную страницу">О нас</a>
+   <a  id="list" href="list1.html" title="Перейти на страницу со списком">Наши животные</a>
+   <a  id="table" href="table1.html" title="Перейти на страницу с таблицей">Ждем в гости</a>
         </div>   
     </body>
 </html>
