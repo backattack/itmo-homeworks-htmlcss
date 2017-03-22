@@ -1,2 +1,2 @@
-# itmo-study-homeworks
+# itmo study
 Home work
