@@ -1,0 +1,67 @@
+body {
+    background-color: antiquewhite;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1,h2 {
+    text-align: center;
+    font-family: fantasy;
+    color: firebrick;
+    
+}
+.header img {
+    height: 10%;
+    width: 10%;
+    float: none;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: -16px;
+    padding: 0px;
+    margin-left: 33px;
+}
+
+
+.level-1 a {
+    font-size: 120%;
+    color: orange;
+    cursor: pointer;
+    list-style-type: none;
+}
+}
+.level-2 a {
+    font-size: 170%;
+    font-style: italic;
+    color: orangered;
+    cursor: pointer;
+    list-style-type: none;
+}
+.header {
+    background-color: white;
+}
+.menu {
+    background-color: blanchedalmond;
+}
+.content {
+    background-color: bisque;
+    color: darkblue;
+    margin-left: 262px;
+    margin-right: 264px;
+}
+.footer {
+    background-color: burlywood;
+    font-family: cursive;
+    font-size: 95;
+    text-align: center;
+    opacity: 0.5;
+}
+#unique-cell {
+    text-decoration: underline;
+    font-size: 110%;    
+}
+.content h2 a { 
+    color: firebrick;
+    font-family: monospace;
+    font-size: 95%;
+}

@@ -1,0 +1,70 @@
+@keyframes rotation {
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+* {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.watch {
+    background: gainsboro;
+    background-position: 50% 50%;
+    height: 300px;
+    width: 300px;
+    border: 1px solid darkblue;
+    border-radius: 50%;
+    margin-left: 30%;
+    margin-top: 5%
+}
+
+.center {
+    background-color:darkblue;
+    border-radius: 50%;
+    border: 1px solid red;
+    height: 10px;
+    width: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hours {
+    background-color: darkblue;
+    height: 20%;
+    left: 49%;
+    top: 51.5%;
+    width: 1.8%;
+    border-radius: 25%;
+
+}
+
+.minutes {
+    background-color: darkblue;
+    height: 30%;
+    left: 49.3%;
+    top: 51.5%;
+    width: 1.4%;
+    border-radius: 30%;
+}
+
+.seconds {
+    background-color:red;
+    height: 33%;
+    left: 49.8%;
+    top: 51.5%;
+    width: 0.4%;
+    border-radius: 45%
+}
+
+.container-hours {animation: rotation 43200s infinite linear;}
+
+.container-minutes {animation: rotation 3600s infinite linear;}
+
+.container-seconds {animation: rotation 60s infinite linear;}
