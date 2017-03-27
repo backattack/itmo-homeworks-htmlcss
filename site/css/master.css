@@ -1,0 +1,73 @@
+body {
+    color: white;
+    background-color: #242943;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding-top: 1.5rem;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+header, section {
+    font-size: 1.6rem;
+}
+
+.logo {
+    text-transform: uppercase;
+}
+
+.logo span {
+    background: #fff;
+    color: #242943;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+.fade-dark {
+    width: 100%;
+    height: 100%
+    opacity: 0.85;
+}
+.intro {
+    position: relative;
+    background-image: url('banner.jpg');
+    padding-top: 4rem;
+}
+
+.intro::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+}
+
+.greetings {
+    padding: 70px 0;
+}
+
+.greetings__title {
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.greetings__title h1 {
+    margin-bottom: 0;
+}
+
+.flat-button {
+    border: 1px solid white;
+    color: white;
+    border-radius: 0%;
+}
+.flat-button:hover {
+    border-color: #6fc3df;
+    color: #6fc3df;
+}
