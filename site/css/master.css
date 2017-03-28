@@ -26,11 +26,12 @@ header, section {
     padding: 0.5rem;
     margin-right: 0.5rem;
 }
+
 .fade-dark {
     width: 100%;
-    height: 100%
-    opacity: 0.85;
+    height: 100% opacity: 0.85;
 }
+
 .intro {
     position: relative;
     background-image: url('banner.jpg');
@@ -67,7 +68,79 @@ header, section {
     color: white;
     border-radius: 0%;
 }
+
 .flat-button:hover {
     border-color: #6fc3df;
     color: #6fc3df;
+}
+
+
+/*--------FEATURES-------*/
+
+.module__content {
+    margin: 0;
+    padding-top: 15%;
+    padding-left: 10%;
+}
+
+.module__content__1 {
+    background-image: url(../images/pic01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    transition: all;
+}
+
+
+.module__content__2 {
+    background-image: url(../images/pic02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+}
+
+.module__content__3 {
+    background-image: url(../images/pic03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+}
+
+.module__content__4 {
+    background-image: url(../images/pic04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+}
+
+.module__content__5 {
+    background-image: url(../images/pic05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+}
+
+.module__content__6 {
+    background-image: url(../images/pic06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+}
+
+
+/*--------FEATURES-------*/
+
+
+.started___content {
+    background-color: #2a2f4a;
+}
+
+.started___title {
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.started___title h1 {
+    margin-bottom: 0;
 }
