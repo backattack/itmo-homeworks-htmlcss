@@ -3,14 +3,16 @@ body {
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
 }
-
+.fa {
+    font-size: 15px;
+}
 .row {
     margin: 0;
     padding: 0;
 }
 
 .header {
-    background-image: url(masthead.jpg);
+    background-image: url('masthead.jpg');
     color: #fff;
     background-position: center center;
     background-size: cover;
@@ -18,32 +20,20 @@ body {
     height: 550px;
 }
 
-.col-md-3 .logo {
-    border: 1px solid orange;
-}
-
 .logo img {
     margin-top: 10%;
-    padding-left: 74%;
+    padding-left: 76%;
     width: 97%;
-}
-
-.col-md-3 .header-text {
-    border: 1px solid orange;
 }
 
 .header-text {
     width: 110%;
-    padding-top: 90%;
-    margin-left: -37%;
-}
-
-.row h1 {
-    font-weight: 300;
+    padding-top: 60%;
+    margin-left: -35%;
 }
 
 .header-text p {
-    font-size: smaller;
+    font-size: 12px;
     font-weight: 300;
 }
 
@@ -51,10 +41,10 @@ body {
     font-weight: bold;
     text-decoration: none;
     color: #fff;
-    font-size: 13px;
+    font-size: 10px;
 }
 
-.col-md-3 .iphone {
+.iphone {
     position: relative;
     height: auto;
 }
@@ -62,37 +52,45 @@ body {
 .iphone img {
     height: auto;
     position: absolute;
-    width: 150%;
-    border: 1px solid orange
+    width: 130%;
+    top: 130px;
 }
 
 .block1 {
     margin-top: 5%;
 }
 
-.block2__text1 {
+.block1 p {
+    color: #b8b8b8;
+}
+
+.block1 h1 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.block1__text1 {
     position: relative;
     width: 70%;
     left: 35%;
     padding-right: 2%;
-    font-size: smaller;
-    border: 1px solid orange;
-    font-weight: 600;
+    font-size: 10px;
+    font-weight: 300;
 }
 
-.block2__text2 {
+.block1__text2 {
     position: relative;
     width: 70%;
     padding-left: 2%;
-    font-size: smaller;
-    border: 1px solid orange;
-    font-weight: 600;
+    font-size: 10px;
+    font-weight: 300;
 }
 
 .block2 {
     margin-top: 6%;
     margin-bottom: 6%;
     margin-left: 17%;
+    color: #fff;
 }
 
 .table1 {
@@ -101,6 +99,23 @@ body {
 
 .table2 {
     position: relative;
+}
+
+.block2 h2 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.block2 p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.block2 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
 }
 
 .grid1-1 {
@@ -150,13 +165,19 @@ body {
 .block3 {
     margin-left: 17%;
     margin-bottom: 5%;
+    margin-right: 12%;
+}
+
+.block3 h6 {
+    color: black;
+    font-weight: bold;
 }
 
 .unit-1, .unit-2, .unit-3, .unit-4 {
     position: relative;
     color: #b8b8b8;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .block4 {
@@ -166,19 +187,78 @@ body {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    color: #fff;
+    font-weight: 300;
+}
+
+.block4 .row {
+    padding-left: 17%;
+    padding-top: 10%;
+}
+
+.block4 p {
+    font-size: 12px;
+}
+
+.block4 a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
 }
 
 .block5 {
     background: #82ca9c;
 }
 
-.block5-margin {
+.block5 .row {
     margin-left: 17%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    color: #fff;
+}
+
+.block5 h6 {
+    font-weight: bold;
+    font-size: 12px
+}
+
+.block5 p {
+    font-size: 10px;
 }
 
 .block6 {
-    background: #ccc;
-    padding:10% 10%;
+    background: #f6f7fa;
+    color: #ccc;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    padding-left: 17%;
+    padding-right: 18%;
+}
+
+.input1 {
+    padding-right: 35%;
+}
+
+.input2 {
+    background-color: #fff;
+    padding-right: 35%;
+    padding: 35px 20px 30px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+
+.input1 h6 {
+    background-color: #ccc;
+    color: #fff;
+    border-radius: 5%;
+    width: 40px;
+}
+
+.input2 h6 {
+    background-color: #61607C;
+    color: #fff;
+    border-radius: 5%;
+    width: 80px;
 }
 
 .button input {
@@ -194,6 +274,10 @@ body {
     padding: 100px 0px 90px 0px;
     background: #192430;
     color: #fff;
+}
+
+.footer .row {
+    padding-left: 17%;
 }
 
 ul {
