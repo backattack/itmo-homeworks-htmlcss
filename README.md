@@ -1,2 +1,1 @@
-# itmo study
-Home work
+# Работы по курсу HTML и CSS
